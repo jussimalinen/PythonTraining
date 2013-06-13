@@ -2,12 +2,10 @@ def length(text):
     return len(text)
 
 def without(text, to_remove):
-    for letter in to_remove:
-        text = text.replace(letter, '')
-    return text
+    return "".join(letter for letter in text if letter not in to_remove)
 
 def count_distinct(text):
     return len(set(text))
 
 def tokens(text):
-    return [entry for entry in text.split('.') if entry!='']
+    return [entry for entry in text.split('.') if entry]

@@ -23,3 +23,6 @@ class TestStrings(unittest.TestCase):
         self.assertEquals(strings.tokens('foo.bar'), ['foo', 'bar'])
         self.assertEquals(strings.tokens('..foo..bar..'), ['foo', 'bar']) 
         self.assertEquals(strings.tokens('hello'), ['hello'])
+
+if __name__ == '__main__':
+    unittest.main()

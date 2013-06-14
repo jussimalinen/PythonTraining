@@ -77,3 +77,6 @@ Name=123
     def _verify_test_names(self):  
         self._verify_number("Name", "123")
         self._verify_number("John Doe", "+555 123")
+
+if __name__ == "__main__":
+    unittest.main()

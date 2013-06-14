@@ -16,3 +16,6 @@ class TestLists(unittest.TestCase):
 		# implement lst.positives, which will return a list without negative numbers
 		self.assertEquals(lst.positives(0, -5,-1,4), [0,4])
 		self.assertEquals(lst.positives(-5,-11, -4), [])
+
+if __name__ == "__main__":
+    unittest.main()

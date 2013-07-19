@@ -7,4 +7,4 @@ def contains(what, where):
 
 def file_rows_startingwith(start, filename):
     return "".join(line for line in read(filename).splitlines(True) 
-                   if line.startswith(text))
+                   if line.startswith(start))

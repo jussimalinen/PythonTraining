@@ -34,3 +34,6 @@ class TestArithmetics(unittest.TestCase):
         # Implement number.add_two_largest, that adds up together two largest numbers in its arguments
         self.assertEquals(number.add_two_largest(6,1,2,10), 16)
         self.assertEquals(number.add_two_largest(1,1,10,1,10), 20)
+
+if __name__ == "__main__":
+    unittest.main()

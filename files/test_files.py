@@ -25,3 +25,6 @@ Explicit is better than implicit.""")
 """Explicit is better than implicit.
 Errors should never pass silently.
 """)
+
+if __name__ == "__main__":
+    unittest.main()
